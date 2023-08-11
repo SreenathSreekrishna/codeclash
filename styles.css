@@ -132,6 +132,7 @@ main {
 }
 
 .share-msg {
+    color: black;
     padding:15px 30px 10px 10px;
     border-radius:20px;
     background: #6EEB83d0;
