@@ -1,14 +1,14 @@
 <svg width="29" height="38" viewBox="0 0 29 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group 7">
-<path id="Vector 1" d="M9 5L21 17L9 29" stroke="#6EEB83" stroke-width="5"/>
+<path id="Vector 1" d="M9 5L21 17L9 29" stroke="#000000" stroke-width="5"/>
 <g id="Ellipse 2" filter="url(#filter0_d_4_87)">
-<circle cx="9" cy="5" r="5" fill="#6EEB83"/>
+<circle cx="9" cy="5" r="5" fill="#000000"/>
 </g>
 <g id="Ellipse 3" filter="url(#filter1_d_4_87)">
-<circle cx="9" cy="28" r="5" fill="#6EEB83"/>
+<circle cx="9" cy="28" r="5" fill="#000000"/>
 </g>
 <g id="Ellipse 4" filter="url(#filter2_dd_4_87)">
-<circle cx="20" cy="17" r="5" fill="#6EEB83"/>
+<circle cx="20" cy="17" r="5" fill="#000000"/>
 </g>
 </g>
 <defs>
