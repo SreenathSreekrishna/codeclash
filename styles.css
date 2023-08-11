@@ -132,13 +132,12 @@ main {
 }
 
 .share-msg {
-    display:none;
     padding:15px 30px 10px 10px;
     border-radius:20px;
     background: #6EEB83d0;
     font-size:10px;
     font-family: 'Lexend Deca';
-    display: inline-block;
+    display: none;
     width: 200px;
     position: fixed;
     right: 20px;
