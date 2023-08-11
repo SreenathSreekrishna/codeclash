@@ -146,7 +146,7 @@ main {
 }
 
 .close-button {
-    display: block;
+    display: none;
     position: absolute;
     width:10px;
     height:10px;
