@@ -109,7 +109,7 @@ main {
     background-color: #6EEB83;
 }
 
-.share {
+.share, .theme {
     margin: auto;
     margin-top: 20px;
     width:fit-content;
@@ -122,5 +122,38 @@ main {
 }
 
 .share .icon img {
-    width:50px;
+    display: block;
+    margin: auto;
+}
+
+.theme:hover, .share:hover {
+    cursor:pointer;
+    opacity: 70%;
+}
+
+.share-msg {
+    padding:15px 30px 10px 10px;
+    border-radius:20px;
+    background: #6EEB83d0;
+    font-size:10px;
+    font-family: 'Lexend Deca';
+    display: inline-block;
+    width: 200px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: justify;
+}
+
+.close-button {
+    display: block;
+    position: absolute;
+    width:10px;
+    height:10px;
+    top:10px;
+    right:10px;
+}
+
+.close-button:hover {
+    cursor: pointer;
 }
