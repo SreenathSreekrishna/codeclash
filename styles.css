@@ -4,6 +4,7 @@
     --primary-color: #6EEB83;
     --secondary-color: white;
     --background-color: black;
+    --error-display: none;
 }
 
 html {
@@ -41,8 +42,8 @@ main {
 .block {
     width:690px;
     margin-top:20px;
-    border-left:5px solid var(--primary-color);
-    border-bottom:5px solid var(--primary-color);
+    border-left:5px solid #6EEB83;
+    border-bottom:5px solid #6EEB83;
     font-size:20px;
     font-family: 'Lexend Deca';
     margin:0 0 0 203px;
@@ -203,7 +204,7 @@ main {
 }
 
 .faq-container {
-    border: 5px solid var(--primary-color);
+    border: 5px solid #6EEB83;
     border-radius:12px;
     padding: 20px;
 }
@@ -225,7 +226,7 @@ main {
 
 .headers-container {
     width: 350px;
-    border: 5px solid var(--primary-color);
+    border: 5px solid #6EEB83;
     border-radius: 12px;
     padding:20px;
     display: flex;
@@ -242,7 +243,7 @@ main {
     padding: 10px;
     margin-bottom: 10px;
     height:42px;
-    border: 5px solid var(--primary-color);
+    border: 5px solid #6EEB83;
     border-radius: 12px;
 }
 
@@ -279,4 +280,17 @@ main {
 
 .search-icon svg {
     color: var(--primary-color);
+}
+
+.search::after {
+    content: 'No Results';
+    color: red;
+    position: absolute;
+    top: -30px;
+    display: var(--error-display);
+}
+
+mark {
+    background-color: var(--primary-color);
+    color: var(--background-color);
 }
